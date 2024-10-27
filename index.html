@@ -8,15 +8,19 @@
 </head>
 <body>
     <div class="container">
+      <h3>To Do List</h3>
+      <p>1- write task in the filed below and Press add to add the task</p>
+      <p>2- Double Click on the task to be deleted</p>
+      <p>3- click on the task to be edited</p>
         <div id="new-task">
             <input type="text" id="input-task" placeholder="Task to be done">
             <button id="add">Add</button>
         </div>
         <div class="list">
           <ul id="ul">
-            <li>Task</li>
-            <li>Task</li>
-            <li>Task</li>
+            <li ondblclick="deleteTask()" title="click to delete">Task</li>
+            <li ondblclick="deleteTask()" title="click to delete">Task</li>
+            <li ondblclick="deleteTask()" title="click to delete">Task</li>
           </ul>
         </div>
     </div>

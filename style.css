@@ -7,8 +7,6 @@ body{
     min-height: 100vh;
     max-height: 100vh;
     background:linear-gradient(145deg,#8052ec,#d161ff);
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 .container{
     position: relative;
@@ -22,9 +20,18 @@ body{
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-    height: calc(100vh - 15px);
-    
-    
+    height: 100vh;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.container h3{
+    color: aliceblue;
+}
+.container p{
+font-size: 18px;
+  text-transform: capitalize;
+  line-height: 1.4;
+  text-align: left;
 }
 .container #new-task{
   position: sticky;
@@ -74,7 +81,7 @@ body{
 }
 .container .list{
   margin-top: 40px;
-  height: 80%;
+  height: 60%;
   overflow-y: scroll;
 }
 
